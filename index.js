@@ -33,6 +33,21 @@ var contacts = [
 
 function lookUpProfile(name, prop)
 {
+    //the first thing we'll do is iterate through each element in the contacts list
+    //...to do this, we make a for loop.
+    for (var i = 0; i < contacts.length; i++)
+    {
+        //the next thing we'll do is check if the name is a name in this list
+        if(contacts[i].firstName === name) //'name' here, refers to the name that was passed in.
+        {
+            //if so, we're going to do something.
 
+
+        }
+            //if not, we're going to do something.
+
+    }
     
 }
+
+var data = lookUpProfile("Akira", "likes");
